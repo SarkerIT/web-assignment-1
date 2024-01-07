@@ -1,0 +1,148 @@
+/* all shared styles  */
+
+.primary-color {
+  color: red;
+}
+/* 
+.first-color { 
+	background: #fffbcc; 
+}
+	
+.second-color { 
+	background: #fd2e2e; 
+}
+
+.third-color { 
+	background: #cf1b1b; 
+}
+
+.fourth-color { 
+	background: #900d0d; 
+}
+*/
+
+/* header banner styles starts  */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-bg {
+  max-width: 1320px;
+  height: 600px;
+  /* background-color: #ffe8e8; */
+  background-image: url("resources/banner-img/Banner\ Image.png");
+  margin: 40px auto;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.header-text {
+  border-radius: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
+  max-width: 1320px;
+  height: 600px;
+  font-family: Merriweather;
+}
+
+.header-text > h3 {
+  font-size: 32px;
+  padding-top: 177px;
+}
+.header-text > h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+/* header section end  */
+
+/* discount section start */
+
+.discount {
+  max-width: 810px;
+  height: 850px;
+  margin: 20px auto;
+  background-color: #b2cfde;
+  text-align: center;
+}
+
+.discount-text {
+  padding-top: 10px;
+}
+
+.discount-percent {
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.deals-text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.deals-text-big {
+  font-size: 48px;
+  font-weight: 700;
+}
+/* discount done  */
+
+/* Midnight party section start */
+.midnight-party {
+  max-width: 1320px;
+  height: 600px;
+  background-color: #fffbcc;
+  margin: 40px auto;
+}
+
+.coming-soon {
+  max-width: 1320px;
+  height: 460px;
+  margin: 50px auto;
+  background-color: #fd2e2e;
+}
+
+.holiday-sale {
+  max-width: 1320px;
+  height: 1060px;
+  margin: 40px auto;
+  background-color: #fffbcc;
+}
+
+.portfolio {
+  max-width: 1320px;
+  height: 1000px;
+  margin: 50px auto;
+  background-color: #fd2e2e;
+}
+.portfolio-photos {
+  display: flex;
+}
+.portfolio-photos-1 {
+  height: 450px;
+  /* width: 425px; */
+}
+
+.portfolio-photos-2 {
+  height: 450px;
+  /* width: 425px; */
+}
+/* .port-img {
+  width: 424px;
+  height: 450px;
+  flex-shrink: 0;
+} */
+
+.newsletter-subscribe {
+  max-width: 1320px;
+  height: 460px;
+  margin: 50px auto;
+  background-color: aquamarine;
+}
+
+.footer {
+  background-color: darkslateblue;
+  width: 1600px;
+  height: 610px;
+  margin: 20px auto;
+}
