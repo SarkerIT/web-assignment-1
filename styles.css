@@ -151,14 +151,45 @@ mid-party-p {
   margin-top: 30px;
 }
 
-/* midnight party done */
-/* 
+/* midnight party ENDS - done */
+
+/* venue section STARTS */
+.venue {
+  padding-top: 100px;
+  height: 460px;
+  max-width: 1320px;
+  margin: 100px auto;
+  background-image: linear-gradient(rgb(255, 192, 203, 0.5), white);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.venue-details {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.venue-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 160px;
+}
+
+/* venue section ENDS */
+
+/* coming soon section STARTS  */
+
 .coming-soon {
   max-width: 1320px;
   height: 460px;
   margin: 50px auto;
   background-color: #fd2e2e;
-} */
+}
+
+/* coming soon section ENDS  */
 
 .holiday-sale {
   max-width: 1320px;
@@ -166,6 +197,8 @@ mid-party-p {
   margin: 40px auto;
   background-color: #fffbcc;
 }
+
+/* portfolio section STARTS  */
 
 .portfolio {
   max-width: 1320px;
