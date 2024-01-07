@@ -226,6 +226,7 @@ mid-party-p {
 }
 
 /* coming soon section ENDS done */
+/* Holiday sale text section STARTS  */
 
 .holiday-sale-texts {
   text-align: center;
@@ -239,13 +240,6 @@ mid-party-p {
   align-items: center;
   */
 }
-.holiday-sale-container {
-  max-width: 1320px;
-  height: 1060px;
-  /* display: flex; */
-  margin: 40px auto;
-  background-color: #fffbcc;
-}
 
 .holiday-sale-bold {
   font-size: 72px;
@@ -258,14 +252,43 @@ mid-party-p {
   font-weight: 400;
 }
 
-.holiday-sale {
+/* Holiday Sale ENDS done */
+
+/* Holiday sale image section STARTS */
+.holiday-sale-photos {
+  max-width: 1320px;
+  height: 670px;
+  /* display: flex; */
+  margin: 40px auto;
+  background-color: #fffbcc;
+}
+.holiday-sale-photo-container-1 {
   display: flex;
+  max-width: 1320px;
+
+  justify-content: right;
+  align-items: center;
 }
 
-/* .red-rectangle {
-  display: flex;
-  margin: 40px auto;
-} */
+.wow-pic {
+  margin: 0;
+}
+
+.fifty-percent {
+  position: relative;
+  left: 150px;
+}
+
+.gift-box {
+  position: relative;
+  top: -650px;
+}
+.red-rectangle {
+  position: relative;
+  top: -5px;
+}
+
+/* Holiday sale image section ENDS */
 
 /* portfolio section STARTS  */
 
