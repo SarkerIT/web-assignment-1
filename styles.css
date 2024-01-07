@@ -21,7 +21,7 @@
 }
 */
 
-/* header banner styles starts  */
+/* header banner styles start  */
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -91,16 +91,53 @@
 .midnight-party {
   max-width: 1320px;
   height: 600px;
-  background-color: #fffbcc;
+  display: flex;
   margin: 40px auto;
+  justify-content: space-around;
+  background-color: #fffbcc;
 }
 
+.midnight-party-bg {
+  background-image: url("resources/mid-night-party/Vectorrr.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midnight-party-texts {
+  margin: 40px auto;
+
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.mid-party-h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+mid-party-p {
+  font-size: 18px;
+}
+
+.mid-2024-img {
+  background-image: url(resources/mid-night-party/Group-70.png);
+  background-repeat: no-repeat;
+  width: 300px;
+}
+
+.join-btn {
+  background-color: aqua;
+}
+
+/* midnight party done */
+/* 
 .coming-soon {
   max-width: 1320px;
   height: 460px;
   margin: 50px auto;
   background-color: #fd2e2e;
-}
+} */
 
 .holiday-sale {
   max-width: 1320px;
