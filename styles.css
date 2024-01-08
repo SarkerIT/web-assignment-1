@@ -1,7 +1,15 @@
 /* all shared styles  */
+* {
+  max-width: 1600px;
+  margin: 0px auto;
+}
 
 .primary-color {
   color: red;
+}
+
+.description1 {
+  font-size: 24px;
 }
 /* 
 .first-color { 
@@ -342,12 +350,14 @@
   max-width: 1320px;
   height: 460px;
   margin: 80px auto;
-  padding: 80px;
   background-color: rgb(265, 230, 230);
   justify-content: center;
   align-items: center;
   text-align: center;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .subscribe-email {
@@ -359,6 +369,7 @@
   border-bottom-left-radius: 30px;
   border: none;
   right: -5px;
+  /* padding: 30px; */
 }
 .subscribe-email-input {
   border: none;
@@ -380,9 +391,9 @@
 .footer {
   background-color: black;
   width: 1600px;
-  height: 610px;
-  padding: 20px auto;
-  margin: 20px auto;
+  height: 600px;
+  padding-top: 150px;
+  /* margin: 100px auto; */
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -419,12 +430,7 @@
   text-align: center;
   justify-content: center;
 }
-/* 
-.rights {
-  padding: 50px;
-} */
 
 hr {
-  /* width: 80%; */
   border: 1px solid rgb(62, 69, 69);
 }
