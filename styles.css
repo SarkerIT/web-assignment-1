@@ -60,7 +60,7 @@
 
 .discount {
   max-width: 810px;
-  height: 850px;
+  height: 865px;
   margin: 20px auto;
   background-color: #b2cfde;
   text-align: center;
@@ -260,12 +260,11 @@
   height: 670px;
   /* display: flex; */
   margin: 40px auto;
-  background-color: #fffbcc;
+  background-color: #e2e2e2;
 }
 .holiday-sale-photo-container-1 {
   display: flex;
   max-width: 1320px;
-
   justify-content: right;
   align-items: center;
 }
@@ -281,7 +280,7 @@
 
 .gift-box {
   position: relative;
-  top: -650px;
+  top: -675px;
 }
 .red-rectangle {
   position: relative;
@@ -338,23 +337,23 @@
   height: 450px;
 }
 
+/* newsletter subscribe STARTS */
 .newsletter-subscribe {
   max-width: 1320px;
   height: 460px;
   margin: 80px auto;
   padding: 80px;
-  background-color: aquamarine;
+  background-color: rgb(265, 230, 230);
   justify-content: center;
   align-items: center;
   text-align: center;
+  border-radius: 15px;
 }
 
 .subscribe-email {
   width: 440px;
   height: 50px;
   text-align: left;
-  color: white;
-  /* background-color: red; */
   font-size: 22px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -376,16 +375,28 @@
   border-bottom-right-radius: 30px;
 }
 
+/* footer section STARTS */
+
 .footer {
-  background-color: darkslateblue;
+  background-color: black;
   width: 1600px;
   height: 610px;
   padding: 20px auto;
   margin: 20px auto;
-
-  /* align-items: center;
+  align-items: center;
   text-align: center;
-  justify-content: center; */
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.address-phone-web,
+.rights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 50px;
 }
 
 .address-phone {
@@ -403,7 +414,17 @@
 }
 
 .social-media {
+  padding: 50px;
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+/* 
+.rights {
+  padding: 50px;
+} */
+
+hr {
+  /* width: 80%; */
+  border: 1px solid rgb(62, 69, 69);
 }
