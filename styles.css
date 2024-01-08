@@ -294,27 +294,50 @@ mid-party-p {
 
 .portfolio {
   max-width: 1320px;
-  height: 1000px;
+  height: 1250px;
   margin: 50px auto;
-  background-color: #fd2e2e;
+  /* background-color: #fd2e2e; */
+  justify-content: space-between;
 }
+.portfolio-texts-opening {
+  /* background-color: aquamarine; */
+  padding: 30px 0px;
+  height: 200px;
+  margin: 40px 0px;
+  font-size: 32px;
+}
+
+.portfolio-texts-bold {
+  font-size: 56px;
+  font-weight: 900;
+}
+
+.portfolio-text-description {
+  font-size: 32px;
+}
+
 .portfolio-photos {
-  display: flex;
+  /* display: flex; */
+  margin: 5px;
 }
 .portfolio-photos-1 {
   height: 450px;
-  /* width: 425px; */
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0px 20px 0px;
 }
 
 .portfolio-photos-2 {
   height: 450px;
+  display: flex;
+  justify-content: space-between;
+
   /* width: 425px; */
 }
-/* .port-img {
+.port-img {
   width: 424px;
   height: 450px;
-  flex-shrink: 0;
-} */
+}
 
 .newsletter-subscribe {
   max-width: 1320px;
